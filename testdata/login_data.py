@@ -1,0 +1,3 @@
+VALID_USERNAME = "testuser"
+
+VALID_PASSWORD = "test123"
