@@ -1,5 +1,6 @@
 {
-    "base_url": "https://www.demoblaze.com/",
-    "browser": "chrome",
-    "implicit_wait": 10
+  "base_url": "https://www.demoblaze.com/",
+  "browser": "chrome",
+  "implicit_wait": 10,
+  "page_load_timeout": 30
 }
