@@ -1,6 +1,21 @@
 from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 
+from utilities.logger import get_logger
+
+log = get_logger()
+
+WELCOME_USER = (
+    By.ID,
+    "nameofuser"
+)
+
+def get_logged_user(self):
+
+    return self.get_text(
+        self.WELCOME_USER
+    )
+
 class LoginPage(BasePage):
 
     LOGIN_MENU = (By.ID, "login2")
